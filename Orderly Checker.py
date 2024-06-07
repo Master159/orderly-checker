@@ -109,7 +109,7 @@ def find_address_info():
         global_rank = data["data"]["global_rank"]
         tier = data["data"]["tier"]
 
-        url = f"https://api-evm.orderly.org/v1/public/campaign/user?address={address}&campaign_id=21"
+        url = f"https://api-evm.orderly.org/v1/public/campaign/user?address={address}&campaign_id=22"
         response = requests.get(url)
         data = response.json()
 
